@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+body hr {
+  width: 80%;
+}
+
 body h1, body a, body p {
   font-family: 'ＭＳ ゴシック',sans-serif;
   color: #333;
@@ -25,7 +29,7 @@ body h1 {
 
 body a, body p {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 body p {
@@ -63,13 +67,13 @@ header .header-wrapper img {
 header .header-wrapper a {
   font-family: 'Mv Boli',sans-serif;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 14px;
   padding: 0;
   margin: 0;
 }
 
 header .header-wrapper .menu:hover {
-  opacity: 0.7;
+  opacity: 0.5;
   -webkit-transition: .7s;
   transition: .7s;
   cursor: pointer;
@@ -77,32 +81,32 @@ header .header-wrapper .menu:hover {
 
 header nav {
   width: 0;
-  height: 400px;
-  background-color: rgba(0, 0, 0, 0.5);
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
   overflow-x: hidden;
   white-space: nowrap;
   position: fixed;
   z-index: 10;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 header nav .nav-main {
   width: 40%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
-  float: right;
+  float: left;
 }
 
 header nav .nav-main i {
-  float: right;
-  padding: 10px;
+  float: left;
+  padding: 18px;
   color: #ccc;
 }
 
 header nav .nav-main i:hover {
-  opacity: 0.7;
+  opacity: 0.5;
   -webkit-transition: .7s;
   transition: .7s;
   cursor: pointer;
@@ -117,7 +121,7 @@ header nav .nav-main h1 {
 }
 
 header nav .nav-main ul {
-  padding: 50px 30px 0;
+  padding: 100px 30px 0;
 }
 
 header nav .nav-main ul li {
@@ -135,9 +139,9 @@ header nav .nav-main ul li a {
 }
 
 header nav .nav-main ul li:hover {
-  opacity: 0.7;
-  -webkit-transition: .7s;
-  transition: .7s;
+  opacity: 0.5;
+  -webkit-transition: .5s;
+  transition: .5s;
   cursor: pointer;
 }
 
@@ -177,9 +181,12 @@ main .about .introduce .p1 {
   display: inline-block;
   text-align: left;
   vertical-align: top;
+  font-size: 20px;
 }
 
 main .about .introduce .p2 {
+  font-size: 20px;
+  line-height: 1.5;
   margin: 0;
   padding: 20px 0 0;
   width: 60%;
@@ -219,7 +226,7 @@ main .works .works-main .work {
       flex-shrink: 1;
   background-color: #efefef;
   padding: 10px 0 20px;
-  width: 330px;
+  width: 300px;
   display: inline-block;
   text-align: center;
 }
@@ -236,6 +243,8 @@ main .works .works-main .work a {
 }
 
 main .works .works-main .work p {
+  width: 80%;
+  font-size: 18px;
   display: inline-block;
   text-align: left;
   margin: 0;
